@@ -4,7 +4,7 @@ from PIL import ImageColor
 
 # инициализация
 window_name = "Result"
-face_cascade_db = cv2.CascadeClassifier('faces.xml') # модели лиц
+face_cascade_db = cv2.CascadeClassifier('faces.xml') # обученая модель с лицами
 bluring = True;
 
 config = configparser.ConfigParser()  # создаём объекта парсера
